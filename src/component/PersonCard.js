@@ -15,9 +15,9 @@ const PersonCard = () => {
     <>
       {details?.map((person, id) => (
         <Card key={person.id} sx={{ maxWidth: 345 }}>
-          <h4>
+          <h3>
             {person.first_name} {person.last_name}
-          </h4>
+          </h3>
           <CardMedia
             className={classes.media}
             component="img"
